@@ -1,0 +1,18 @@
+.table{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px black solid;
+}
+
+.table>div{
+  border: 1px black solid;
+  height: 50px;
+}
+
+.part1{
+  grid-column: span 2;
+}
+
+.part4{
+  grid-column: span 2;
+}

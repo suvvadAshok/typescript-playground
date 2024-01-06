@@ -1,0 +1,41 @@
+#check{
+  width: 150px;
+  height:150px;
+  border: 1px solid black;
+  border-radius: 80px;
+  /* background-color: rgb(0, 0, 0); */
+
+}
+.container{
+
+  border: black solid 5px;
+  padding: 3rem;
+
+}
+
+
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  /* border: 1px solid rebeccapurple; */
+  /* padding: 20px; */
+  /* justify-content: center; */
+  align-items: center;
+  margin: auto;
+}
+
+.colormix{
+  padding-top: 10px;
+}
+
+#red{
+  accent-color: red;
+}
+#green{
+  accent-color: green;
+}
+#blue{
+  accent-color: blue;
+}

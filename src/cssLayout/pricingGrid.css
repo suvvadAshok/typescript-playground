@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+h3{
+  font-size: large;
+  margin-bottom: 0%;
+}
+
+h1{
+  font-size: xx-large;
+  margin: 2% 0%;
+}
+
+/* ------------- */
+/*     Body      */
+/* ------------- */
+
+.body{
+  display: flex;
+  /* flex-direction: column; */
+  gap:2rem;
+}
+
+.heading,
+.footer {
+  text-align: center;
+}
+
+.heading{
+  text-transform: capitalize;
+}
+
+.body>div{
+  padding: 2rem;
+  border: 1px black solid;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.body>div>h1>span{
+  font-size: medium;
+  color: gray;
+
+}
+
+.body>div>p{
+  margin-top: 0%;
+  color: darkgrey;
+}
+
+.body>div>div{
+  padding: 1rem 0 2rem;
+}
+
+/* .heading,.footer{
+  text-align: center;
+} */
+
+
+/* ------------- */
+/*   Footer      */
+/* ------------- */
+
+
+.footer{
+  padding-top: 5rem;
+}
+
+marquee{
+  padding: 2rem;
+  color: rgb(224, 249, 241);
+  background-color: rgb(10, 10, 10);
+  font-family:'Brush Script MT',
+    cursive;
+}
+
+
+.footer>h3{
+  padding: 2rem;
+  text-transform: capitalize;
+}
+
+.scroll>*{
+  font-size: 30px;
+  padding: 2rem;
+}
+
+ @media(max-width:900px) {
+  .flex {
+    display: grid;
+    flex-basis: 1;
+    gap: 2rem;
+     row-gap: 1rem;
+  }
+}
+
+@media (min-device-width : 900px) and (max-device-width : 1400px){
+  .body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .part3{
+    grid-column: span 2;
+  }
+}
+

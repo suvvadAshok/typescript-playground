@@ -1,0 +1,29 @@
+.page{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.page> div{
+  border: 1px solid black;
+  height: 100px;
+}
+
+@media(max-device-width:800px) and (min-device-width:500px){
+  .page{
+    grid-template-columns: repeat(3,1fr);
+
+  }
+}
+
+@media(max-device-width:500px){
+  .page{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* @media(min-device-width:500px) and(max-device-width:800px){
+  .page{
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */

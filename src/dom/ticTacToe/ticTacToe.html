@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moirai+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Moirai+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Henny+Penny&family=Moirai+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+    <link rel="stylesheet" href="ticTacToe.css" />
+  </head>
+  <body>
+    <div id="game">
+      <div class="play">
+        <h1 class="header">Tic Tac Toe</h1>
+
+        <div id="player">
+          <div class="box" id="0"></div>
+          <div class="box" id="1"></div>
+          <div class="box" id="2"></div>
+          <div class="box" id="3"></div>
+          <div class="box" id="4"></div>
+          <div class="box" id="5"></div>
+          <div class="box" id="6"></div>
+          <div class="box" id="7"></div>
+          <div class="box" id="8"></div>
+        </div>
+      </div>
+
+      <div id="show">
+        <button id="reset" aria-label="reset-button">
+          <i class="ph-bold ph-arrow-clockwise"></i>
+        </button>
+        <div class="declare">
+          <p id="win">winner</p>
+          <p id="winner"></p>
+        </div>
+      </div>
+    </div>
+    <script src="ticTacToe.ts" type="module"></script>
+  </body>
+</html>

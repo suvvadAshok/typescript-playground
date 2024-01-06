@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+/* .text{
+  position: relative;
+} */
+
+.contents{
+  /* display: grid; */
+  padding: 4rem;
+  width: 100px;
+  position: sticky;
+}
+

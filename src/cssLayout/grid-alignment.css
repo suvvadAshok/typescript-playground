@@ -1,0 +1,21 @@
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.parent {
+  margin: 50vh auto;
+}
+
+.grid{
+  display: grid;
+  width: 50%;
+  /* height: 30rem; */
+  grid-template-columns: repeat(3, 1fr);
+  /* place-items: center; */
+  place-content: center;
+}
+
+.child{
+  border: 1px black solid;
+}

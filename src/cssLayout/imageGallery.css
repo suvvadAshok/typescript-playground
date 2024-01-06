@@ -1,0 +1,21 @@
+body{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.flex{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* .flex>*{
+  flex-basis: 1;
+} */
+

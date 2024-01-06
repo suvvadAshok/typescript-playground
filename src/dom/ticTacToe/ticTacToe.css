@@ -1,0 +1,105 @@
+/*********** Title ************/
+
+.header {
+  font-family: "Fredericka the Great", cursive;
+  /* font-family: "Moirai One", cursive; */
+  font-size: 50px;
+  color: rgba(212, 141, 10, 0.993);
+  text-shadow: 2px 2px #000;
+  /* border: 4px black solid; */
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/********** FullBody *************/
+
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpaperaccess.com/full/2078959.jpg);
+  background-repeat: no-repeat;
+  gap: 2rem;
+  height: 100vh;
+  width: 100%;
+}
+
+[id="0"],
+[id="3"],
+[id="6"] {
+  border-right: 3px solid rgb(31, 114, 156);
+}
+
+[id="2"],
+[id="5"],
+[id="8"] {
+  border-left: 3px solid rgb(31, 114, 156);
+}
+
+[id="0"],
+[id="1"],
+[id="2"],
+[id="3"],
+[id="4"],
+[id="5"] {
+  border-bottom: 3px solid rgb(31, 114, 156);
+}
+
+/********* Boxes *********/
+
+#player {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+  color: brown;
+  transition: transform 0.2s;
+  font-family: "Moirai One", cursive;
+}
+
+/******Reset*******/
+
+#reset {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(165, 107, 35);
+  border-radius: 100%;
+  color: rgb(147, 188, 224);
+  font-size: large;
+  border: black solid;
+}
+
+/**********Result*******/
+
+#show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgba(171, 129, 38, 0.986);
+}
+
+.declare {
+  display: flex;
+  gap: 1rem;
+  margin-top: -30px;
+  font-family: "Henny Penny", cursive;
+}
+
+#winner {
+  color: rgba(62, 131, 133, 0.986);
+}

@@ -1,0 +1,46 @@
+.day-of-week,#date-grid{
+  display: grid;
+  grid-column: 7;
+  grid-template-columns: repeat(7,5fr);
+  width: 50%;
+  grid-gap: 10px 2px;
+
+}
+.calendar{
+  width: 80%;
+  background-color: rgb(221, 191, 154);
+  margin: auto;
+}
+
+h3{
+  padding: 2rem;
+}
+
+.yearandmonth{
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.yearandmonth>select{
+  font-size: medium;
+  border-radius: 5px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show>*{
+  font-size: large ;
+}
+
+.grid{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}

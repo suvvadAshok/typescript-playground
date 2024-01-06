@@ -1,0 +1,38 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.parent{
+  height: 30rem;
+  border: 5px black solid;
+  font-size: xx-large;
+
+}
+
+.child1{
+  text-align: center;
+  padding: 10rem;
+}
+
+.parent>*
+{
+  border: 5px rgb(203, 34, 34) solid;
+}
+
+.child2{
+  grid-template-columns: repeat(3,1fr) ;
+  border: 2px black solid;
+  justify-content: center;
+  /* align-content: center; */
+}
+
+.child2>*{
+  font-size: xx-large;
+  border: 2rem rgb(34, 203, 90) solid;
+  text-align: center;
+  padding: 4rem;
+}
+
+
+
